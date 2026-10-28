@@ -5,7 +5,7 @@ a = Analysis(
     ['Project-1.py'],
     pathex=[],
     binaries=[],
-    datas=[('game_icon.png', '.'), ('player.png', '.'), ('enemy.png', '.'), ('wall.png', '.'), ('bush.png', '.'), ('walk.wav', '.'), ('run.wav', '.'), ('alert.wav', '.'), ('win.wav', '.'), ('lose.wav', '.'), ('hide.wav', '.'), ('skeleton.wav', '.'), ('background_music.mp3', '.')],
+    datas=[('Assets', 'Assets')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['game_icon.ico'],
+    icon=['Assets/Image Assets/game_icon.ico'],
 )

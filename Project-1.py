@@ -34,6 +34,10 @@ def resource_path(relative_path):
         base_path = sys._MEIPASS
     except Exception:
         base_path = os.path.abspath(".")
+    for sub in ["", os.path.join("Assets", "Image Assets"), os.path.join("Assets", "Audio Assets"), "Assets"]:
+        p = os.path.join(base_path, sub, relative_path) if sub else os.path.join(base_path, relative_path)
+        if os.path.exists(p):
+            return p
     return os.path.join(base_path, relative_path)
 
 def get_save_path():
