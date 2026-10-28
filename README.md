@@ -28,7 +28,6 @@ An intelligent 2D top-down dungeon crawler and stealth survival game developed w
   - [Running the Standalone Executable](#running-the-standalone-executable)
   - [Building with PyInstaller](#building-with-pyinstaller)
 - [Settings & Save System](#settings--save-system)
-- [Academic Information & Contributors](#academic-information--contributors)
 - [License](#license)
 
 ---
@@ -266,21 +265,6 @@ Save data and user settings are serialized cleanly to JSON format:
 
 ---
 
-## Academic Information & Contributors
-
-This project was developed as an Artificial Intelligence practical project at **SRM Institute of Science and Technology, Ramapuram, Chennai**.
-
-### Team Members
-- **Nitish S R** — Reg. No: `RA2411003020791`
-- **Dhanush Kumar** — Reg. No: `RA2411003020825`
-- **Seshathri H** — Reg. No: `RA2411003020828`
-
-### Faculty Supervisor
-- **Mr. C. Santhosh Kumar M.E., MBA., (Ph.D.)**  
-  *Assistant Professor, Department of Computer Science and Engineering*  
-  *SRM Institute of Science and Technology*
-
----
 
 ## License
 
