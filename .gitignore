@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller temporary files (keep .spec if needed)
+# *.spec
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.agents/
+
+# Local save files (user specific)
+save.json
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Large standalone executables (track Dungeon Crawler v2.exe, ignore duplicate build)
+Dungeon Crawler.exe
+
